@@ -1,0 +1,17 @@
+Project Name: KD Tree
+Author: Tyler Smith
+Class: CS 315
+
+Purpose: This program takes in user input of n points, of k dimensions.
+	 The program stores these values and then makes a balanced offline KD Tree.
+	 The user also gives the program a certain number of probes.
+	 These probes are then printed along with the bucket of points they would belong to.
+
+How it Works: The program stores all the points into a 2D vector.
+	      These points are then inserted into a KD Tree by first finding the best dimension to discrimante on.
+	      The median of the points based on the dimension is found using a quick select algorithm.
+              The vector of points is then split into two vectors based on the median value.
+	      The program recurs down the tree until the vector size is less than or equal to 10.
+	      These points are then stored in the leaf nodes of the tree.
+
+How to Compile: make run
