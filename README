@@ -1,6 +1,5 @@
 Project Name: KD Tree
 Author: Tyler Smith
-Class: CS 315
 
 Purpose: This program takes in user input of n points, of k dimensions.
 	 The program stores these values and then makes a balanced offline KD Tree.
